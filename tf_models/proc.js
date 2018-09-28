@@ -2,6 +2,10 @@
 // godzzo@godzzow1:~/Current/swedishSignsSummer/images$ cat labels1.csv > labels.csv 
 // godzzo@godzzow1:~/Current/swedishSignsSummer/images$ cat labels2.csv >> labels.csv 
 
+// mi@portishead:~/Current/swedishSignsSummer/images/STOP$ cat test_labels.csv | sed 's/,.*//gi' | while read a; do cp ../full/$a test/$a; done 
+// mi@portishead:~/Current/swedishSignsSummer/images/STOP$ cat train_labels.csv | sed 's/,.*//gi' | while read a; do cp ../full/$a train/$a; done 
+
+
 /*
 30_SIGN: 9
 50_SIGN: 193
